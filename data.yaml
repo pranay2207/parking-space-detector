@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['occupied', 'vacant']
+
+roboflow:
+  workspace: project-wopuu
+  project: parking-space-4-wucim
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-wopuu/parking-space-4-wucim/dataset/1
