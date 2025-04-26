@@ -32,7 +32,7 @@ The parking space detection model was trained on a dataset of parking lot images
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/parking-space-detector.git
+git clone https://github.com/pranit1812/parking-space-detector.git
 cd parking-space-detector
 
 # Create and activate a virtual environment (optional but recommended)
