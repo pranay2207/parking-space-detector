@@ -1,0 +1,60 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Project Rules for Parking Occupancy Detection App
+
+
+
+
+
+Use Python 3.8+ for all development.
+
+
+
+Use YOLOv8 (ultralytics) for computer vision tasks.
+
+
+
+Use Streamlit for the web/mobile app frontend.
+
+
+
+Use OpenCV for camera stream capture and processing.
+
+
+
+Use pandas for data storage and numpy/shapely for geometric calculations.
+
+
+
+Train model on provided dataset (train/, valid/, test/ with data.yaml).
+
+
+
+Store parking space coordinates in JSON.
+
+
+
+Save occupancy data to CSV.
+
+
+
+Ensure app is responsive for mobile browsers.
+
+
+
+Secure RTSP camera streams with authentication.
+
+
+
+Deploy on a local server for pilot testing.
+
+
+
+Follow modular code structure with clear comments.
+
+
+
+Avoid external APIs or dependencies beyond specified libraries. 

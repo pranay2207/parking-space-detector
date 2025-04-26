@@ -1,0 +1,155 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- [ ] Set up Python environment - Install Python 3.8+ - Create and activate virtual environment - Install dependencies: ultralytics, streamlit, opencv-python, numpy, pandas
+
+
+
+
+
+[ ] Verify dataset structure
+
+
+
+
+
+Check train/, valid/, test/ folders for images/ and labels/
+
+
+
+Validate data.yaml paths and class names
+
+
+
+[ ] Train YOLOv8 model
+
+
+
+
+
+Run training with yolov8n.pt on data.yaml (50 epochs, imgsz=640)
+
+
+
+Save model to runs/train/exp/weights/best.pt
+
+
+
+Validate model on validation set
+
+
+
+[ ] Implement camera integration
+
+
+
+
+
+Set up RTSP stream capture with OpenCV
+
+
+
+Test stream connectivity and frame capture
+
+
+
+[ ] Create parking space mapping
+
+
+
+
+
+Define parking space polygons in JSON
+
+
+
+Implement overlap detection with shapely for occupancy
+
+
+
+[ ] Develop backend logic
+
+
+
+
+
+Process frames with YOLOv8 for occupancy detection
+
+
+
+Store occupancy data in pandas DataFrame
+
+
+
+Save data to CSV
+
+
+
+[ ] Build Streamlit app
+
+
+
+
+
+Create app.py with parking lot map visualization
+
+
+
+Display real-time occupancy (green: vacant, red: occupied)
+
+
+
+Show available space count
+
+
+
+Test app responsiveness on mobile
+
+
+
+[ ] Test system
+
+
+
+
+
+Run model tests on test/ dataset
+
+
+
+Verify real-time app updates
+
+
+
+Conduct pilot test in one lot
+
+
+
+[ ] Deploy pilot
+
+
+
+
+
+Set up server for camera and app hosting
+
+
+
+Deploy Streamlit app and test access
+
+
+
+[ ] Document project
+
+
+
+
+
+Write user guide for app usage
+
+
+
+
+Write developer guide for maintenance

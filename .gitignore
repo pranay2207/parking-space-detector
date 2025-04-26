@@ -43,8 +43,8 @@ out/
 .ipynb_checkpoints
 
 # Project specific
-models/*/
-runs/
+
+
 .git/
 data/occupancy/
 *.jpg
